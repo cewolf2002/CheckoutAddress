@@ -1,0 +1,20 @@
+{
+    "name": "cewolf/module-checkout-address",
+    "description": "Magento 2 module to customize Billing Address field order on checkout page.",
+    "require": {
+        "php": ">=7.0.2"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cewolf\\CheckoutAddress\\": ""
+        }
+    }
+}
